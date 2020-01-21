@@ -12,10 +12,10 @@ const routes = [{
         component: Home
     },
     {
-        path: '/addQrCode',
-        name: 'addQrCode',
+        path: '/AddQrCode',
+        name: 'AddQrCode',
         component: () =>
-            import ( /* webpackChunkName: "addQrCode" */ '../views/addQrCode.vue')
+            import ( /* webpackChunkName: "addQrCode" */ '../views/AddQrCode.vue')
     }
 ]
 

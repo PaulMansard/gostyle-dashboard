@@ -1,10 +1,11 @@
 <template>
-    <div>
-        <div ref="qart"></div>
-        <a  @click="convertToImage" v-if="download.visible">Télécharger votre QRCode en png</a>
-    </div>
+  <div>
+    <div ref="qart"></div>
+    <a @click="convertToImage" v-if="download.visible"
+      >Télécharger votre QRCode en png</a
+    >
+  </div>
 </template>
-
 
 <script type="application/ecmascript">
 import QArt from 'qartjs'
