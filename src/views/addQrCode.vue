@@ -1,16 +1,15 @@
 <template>
   <div>
     <h1>Ajouter une nouvelle réduction</h1>
-    <QrCodeGenerator msg="Welcome to Your Vue.js App"/>
+    <FormCreateQRCode />
   </div>
 </template>
 <script>
-import QrCodeGenerator from '@/components/QrCodeGenerator.vue'
-
+import FormCreateQRCode from "@/components/FormCreateQRCode.vue";
 export default {
-  name: 'home',
+  name: "home",
   components: {
-    QrCodeGenerator
+    FormCreateQRCode
   }
-}
+};
 </script>

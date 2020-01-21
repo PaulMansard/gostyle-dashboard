@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <Menubar :model="items" />
-    <router-view/>
+    <router-view />
   </div>
 </template>
 
@@ -11,24 +11,24 @@ export default {
     return {
       items: [
         {
-          label:'Promotion',
-          icon:'pi pi-ticket',
-          items:[
+          label: "Promotion",
+          icon: "pi pi-ticket",
+          items: [
             {
-              label:'New',
-              icon:'pi pi-fw pi-plus',
-              to: '/addQrCode'
+              label: "New",
+              icon: "pi pi-fw pi-plus",
+              to: "/addQrCode"
             }
           ]
         }
       ]
-    }
+    };
   }
-}
+};
 </script>
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
