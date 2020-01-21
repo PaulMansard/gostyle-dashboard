@@ -10,16 +10,19 @@ import Menubar from "primevue/menubar";
 import "primevue/resources/themes/nova-light/theme.css";
 import "primevue/resources/primevue.min.css";
 import "primeicons/primeicons.css";
+import Listbox from "primevue/listbox";
 import VueQArt from "vue-qart";
 
-Vue.use(ToastService);
 Vue.use(Dialog);
+Vue.use(ToastService);
 
 new Vue({
     components: { VueQArt }
 });
 Vue.component("InputText", InputText);
+Vue.component("Listbox", Listbox);
 Vue.component("Button", Button);
+Vue.component("ToastService", ToastService);
 Vue.component("Toast", Toast);
 Vue.component("Dialog", Dialog);
 Vue.component("Menubar", Menubar);
