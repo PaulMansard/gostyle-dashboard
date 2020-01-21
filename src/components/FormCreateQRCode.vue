@@ -112,7 +112,7 @@ export default {
       },
       options: [
         { text: "%", value: "1" },
-        { text: "2 acheté 1 offert", value: "2" },
+        { text: "2 acheté 1 offert et plus", value: "2" },
         { text: "A partir de ...", value: "3" }
       ],
       display: false,
