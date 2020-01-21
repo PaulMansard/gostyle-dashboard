@@ -1,13 +1,31 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/AddQrCode">AddQrCode</router-link>
-    </div>
+    <Menubar :model="items" />
     <router-view/>
   </div>
 </template>
 
+<script>
+export default {
+  data() {
+    return {
+      items: [
+        {
+          label:'Promotion',
+          icon:'pi pi-ticket',
+          items:[
+            {
+              label:'New',
+              icon:'pi pi-fw pi-plus',
+              to: '/addQrCode'
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
+</script>
 <style>
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;

@@ -8,6 +8,7 @@ import Button from 'primevue/button';
 import Toast from 'primevue/toast';
 import ToastService from 'primevue/toastservice';
 import Dialog from 'primevue/dialog';
+import Menubar from 'primevue/menubar';
 
 Vue.use(ToastService);
 Vue.use(Dialog);
@@ -16,6 +17,7 @@ Vue.component('InputText', InputText);
 Vue.component('Button', Button);
 Vue.component('Toast', Toast);
 Vue.component('Dialog', Dialog);
+Vue.component('Menubar', Menubar);
 
 Vue.config.productionTip = false
 
@@ -24,7 +26,6 @@ import 'primevue/resources/primevue.min.css';
 import 'primeicons/primeicons.css';
 
 import VueQArt from 'vue-qart'
-
 
 new Vue({
     components: { VueQArt },
