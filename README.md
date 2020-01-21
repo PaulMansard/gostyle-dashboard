@@ -1,3 +1,6 @@
+
+# déplacement du projet sur https://gitlab.com/CorentinGautier/gostyle-dashboard/
+
 # gostyle-dashboard
 
 ## Project setup
