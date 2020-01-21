@@ -7,12 +7,15 @@ import InputText from 'primevue/inputtext';
 import Button from 'primevue/button';
 import Toast from 'primevue/toast';
 import ToastService from 'primevue/toastservice';
+import Dialog from 'primevue/dialog';
 
 Vue.use(ToastService);
+Vue.use(Dialog);
 
 Vue.component('InputText', InputText);
 Vue.component('Button', Button);
 Vue.component('Toast', Toast);
+Vue.component('Dialog', Dialog);
 
 Vue.config.productionTip = false
 
